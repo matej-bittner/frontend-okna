@@ -27,7 +27,7 @@ const ButtonLink = ({
     lg: "px-6 h-12 min-w-[120px] text-lg xl:text-xl xl:h-16 xl:min-w-[170px]",
   };
   const colorClasses =
-    color === "light" ? "bg-white text-black" : "bg-black/20 text-white";
+    color === "light" ? "bg-white text-black" : "bg-black text-white";
 
   const buttonClasses = cn(
     " font-light inline-flex items-center justify-center whitespace-nowrap hover:scale-110 transition duration-200 transform relative shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]", // Společné třídy
